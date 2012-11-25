@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutFinish" xml:space="preserve">
+    <value>  Best regards!</value>
+  </data>
+  <data name="AboutFirst" xml:space="preserve">
+    <value>  Application designed and developed by Anton Yarkov aka OptikLab. </value>
+  </data>
+  <data name="AboutSecond" xml:space="preserve">
+    <value>  All your questions, wishes or bug reports please send  me to bySLaSH@gmail.com.</value>
+  </data>
+  <data name="AboutSite" xml:space="preserve">
+    <value>  You can just post it on my own site www.optiklab.ru. Also, here you can find more information about this and another projects.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="del" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\del.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HelpAlgorithm" xml:space="preserve">
+    <value>You can choose one of three cryptographic algorothms which will protect your data. Default is TripleDES. Rijndael (AES) more powerful of them. Key and password needs to encrypt your data. Please, keep in mind selected preferences, because it needs to decrypt your data if you lose settings file or change mobile device.</value>
+  </data>
+  <data name="HelpKey" xml:space="preserve">
+    <value>Key has differenet lengths in depending from encryption algorithm: Rijndael - 256 bits, TripleDES - 192 bits, RC2 - 128 bits. You can enter less key than needs (text field has red background color), then application will modify it for needed length. Definitely recommended to use your own key (some phrase or text). Also you can genereate this key by Generate button.</value>
+  </data>
+  <data name="HelpPass" xml:space="preserve">
+    <value>Pasword has different requirements for length: Rijndael - 128 bits, TripleDES - 64 bits, RC2 - 64 bits. You can use default password, but definitely recommended to use your own key (some phrase or text).</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Intend" xml:space="preserve">
+    <value>  Application is intend to create and keep in protected encrypted state your text notes: personal data, accountary data and etc.</value>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>  Any support questions, wishes, bug reports, please send me to:  bySLaSH@gmail.com, or post it by Contacts form in www.optiklab.ru. Thank you!</value>
+  </data>
+  <data name="MainFunctions" xml:space="preserve">
+    <value>  Main functions: create/edit/delete notes, encrypt/decrypt notes for security and protect, export data in text file.</value>
+  </data>
+  <data name="MainUI" xml:space="preserve">
+    <value>  Application contain simple graphic user interface. Main form allow you to see all the notes with its dates and times of creation, modifying and accessing. Here is you can Add new note, Edit note, Delete it or Save to Text file without any encryption. Search bar help you to find some note in list. Editor form is for editing or reading of some note. Preferences form allow to tune security settings: algorithm, key and password.</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Requirements:
+- PocketPC or Smartphone 
+- CPU 150 MHz 
+- RAM 64 MByte 
+- Display 240 x 320 
+- Colors 65536 
+- Windows Mobile 5/6/6.5 
+- .NET Compact Framework 3.5</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>  Caution! Always remember your own preferences: algorithm, password and key. Application automaticaly save it in encryption state, but in case of system fail you can lose settings and here will be only one way to decrypt data - your preferences.</value>
+  </data>
+  <data name="faq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\faq.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_pushed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_pushed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="del_pushed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\del_pushed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_pushed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_pushed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faq_pushed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\faq_pushed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_pushed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_pushed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel_pushed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel_pushed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Okie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Okie.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Okie_pushed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Okie_pushed.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

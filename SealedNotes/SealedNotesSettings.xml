@@ -1,0 +1,8 @@
+<!-- SealedNotesSettings.xml -->
+
+<Settings>
+	<Setting 
+		SaveToFile="notes.bin" 
+		SaveToFolder=""
+	/>
+</Settings>
